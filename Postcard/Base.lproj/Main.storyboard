@@ -19,7 +19,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CZl-C2-aZC">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="600"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -104,6 +104,15 @@
                                     <rect key="frame" x="54" y="88" width="201" height="38"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4m-Dh-vfx">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="54" y="187" width="121" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="zpg-Dc-Bw4"/>
                                 <exclude reference="C82-aj-6Q8"/>
                                 <exclude reference="Uch-kc-awh"/>
+                                <exclude reference="B4m-Dh-vfx"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="zpg-Dc-Bw4"/>
                                 <include reference="C82-aj-6Q8"/>
                                 <include reference="Uch-kc-awh"/>
+                                <include reference="B4m-Dh-vfx"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="H7q-fM-STC" id="hcz-ii-bgB"/>
                         <outlet property="mailButton" destination="C82-aj-6Q8" id="2qX-Sp-otE"/>
                         <outlet property="messageLabel" destination="Uch-kc-awh" id="059-4S-h7m"/>
+                        <outlet property="nameLabel" destination="B4m-Dh-vfx" id="Qo2-Ga-YkF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sK1-pO-g1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -153,6 +165,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5S9-j0-b3N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="15" y="250"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="21E-bC-UZL">
+            <objects>
+                <viewController id="Qyc-ic-fvE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OLT-mY-XJW"/>
+                        <viewControllerLayoutGuide type="bottom" id="arC-L5-yq2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MaL-uy-L35">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jao-co-YMC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
