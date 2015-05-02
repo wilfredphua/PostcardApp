@@ -13,6 +13,8 @@
 		182F30341AE3E64500B925B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182F30331AE3E64500B925B3 /* Images.xcassets */; };
 		182F30371AE3E64500B925B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182F30351AE3E64500B925B3 /* LaunchScreen.xib */; };
 		182F30431AE3E64600B925B3 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F30421AE3E64600B925B3 /* PostcardTests.swift */; };
+		182F304D1AE3E67300B925B3 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 182F304C1AE3E67300B925B3 /* Bo.jpg */; };
+		182F304F1AE3E67900B925B3 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 182F304E1AE3E67900B925B3 /* JRT.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		182F303C1AE3E64500B925B3 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F30411AE3E64500B925B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182F30421AE3E64600B925B3 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		182F304C1AE3E67300B925B3 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		182F304E1AE3E67900B925B3 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		182F302A1AE3E64500B925B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				182F304C1AE3E67300B925B3 /* Bo.jpg */,
+				182F304E1AE3E67900B925B3 /* JRT.jpg */,
 				182F302B1AE3E64500B925B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				182F30321AE3E64500B925B3 /* Main.storyboard in Resources */,
 				182F30371AE3E64500B925B3 /* LaunchScreen.xib in Resources */,
+				182F304F1AE3E67900B925B3 /* JRT.jpg in Resources */,
+				182F304D1AE3E67300B925B3 /* Bo.jpg in Resources */,
 				182F30341AE3E64500B925B3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
